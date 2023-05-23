@@ -2,7 +2,10 @@ import React from 'react'
 
 function Tracklist() {
   return (
-    <div>Tracklist</div>
+    <div>
+      <div>TrackList</div>
+      <button className='add-btn'>Add to Spotify</button>
+    </div>
   )
 }
 
